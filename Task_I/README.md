@@ -18,15 +18,16 @@ The assignment also shows why the way we divide the work matters. Contiguous acc
 
 Using more threads does not always save time. For a small array, starting the threads and waiting for them can cost more time than the calculation itself.
 
-## Purpose of this recruitment task
+## Purpose
 
-This task gives me practice with creating threads, dividing work, and combining results safely. It also helps me understand why timing a program is necessary before deciding whether a parallel version is better than a serial one.
+This task gave me practice with creating threads, dividing work, and combining results safely. It also helps me understand why timing a program is necessary before deciding whether a parallel version is better than a serial one.
 
 ## How to run
 
 With `main.rs` in the current folder, run these commands on Linux:
 
 rustc -O --edition=2021 main.rs -o task1
+
 ./task1
 
 Change this line in `main.rs` to test different array sizes:
